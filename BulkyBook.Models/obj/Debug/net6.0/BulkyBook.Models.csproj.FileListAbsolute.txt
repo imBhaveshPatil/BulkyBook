@@ -9,3 +9,4 @@ D:\#Project\Web\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.dll
 D:\#Project\Web\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\refint\BulkyBook.Models.dll
 D:\#Project\Web\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.pdb
 D:\#Project\Web\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\ref\BulkyBook.Models.dll
+D:\#Project\Web\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.sourcelink.json

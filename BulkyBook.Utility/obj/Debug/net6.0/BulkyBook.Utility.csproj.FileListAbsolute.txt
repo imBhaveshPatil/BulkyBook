@@ -9,3 +9,4 @@ D:\#Project\Web\BulkyBook\BulkyBook.Utility\obj\Debug\net6.0\BulkyBook.Utility.d
 D:\#Project\Web\BulkyBook\BulkyBook.Utility\obj\Debug\net6.0\refint\BulkyBook.Utility.dll
 D:\#Project\Web\BulkyBook\BulkyBook.Utility\obj\Debug\net6.0\BulkyBook.Utility.pdb
 D:\#Project\Web\BulkyBook\BulkyBook.Utility\obj\Debug\net6.0\ref\BulkyBook.Utility.dll
+D:\#Project\Web\BulkyBook\BulkyBook.Utility\obj\Debug\net6.0\BulkyBook.Utility.sourcelink.json

@@ -548,3 +548,4 @@ D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
+D:\#Project\Web\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.sourcelink.json
