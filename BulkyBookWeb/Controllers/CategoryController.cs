@@ -8,15 +8,15 @@ namespace BulkyBookWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ICategoryRepository _db;
+        private readonly IUnitOfWork _db;
 
-        public CategoryController(ICategoryRepository db)
+        public CategoryController(IUnitOfWork db)
         {
             _db = db;     
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> categoryList = _db.GetAll();
+            IEnumerable<Category> categoryList = _db.Category.GetAll();
             return View(categoryList);
         }
 
@@ -38,7 +38,7 @@ namespace BulkyBookWeb.Controllers
 
             if (ModelState.IsValid)
             {
-                _db.Add(ctgObj);
+                _db.Category.Add(ctgObj);
                 _db.Save();
                 TempData["success"] = "Category created successfully.";
                 return RedirectToAction("Index");
@@ -52,7 +52,7 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
 
             //var category = _db.Categories.Find(id);
-            var ctg = _db.GetFirstOrDefault(x => x.Id == id);
+            var ctg = _db.Category.GetFirstOrDefault(x => x.Id == id);
 
             if (ctg == null)
                 return NotFound();
@@ -72,7 +72,7 @@ namespace BulkyBookWeb.Controllers
 
             if (ModelState.IsValid)
             {
-                _db.Update(ctgObj);
+                _db.Category.Update(ctgObj);
                 _db.Save();
                 TempData["success"] = "Category updated successfully.";
                 return RedirectToAction("Index");
@@ -87,7 +87,7 @@ namespace BulkyBookWeb.Controllers
                 return NotFound();
 
             //var category = _db.Categories.Find(id);
-            var ctg = _db.GetFirstOrDefault(x => x.Id == id);
+            var ctg = _db.Category.GetFirstOrDefault(x => x.Id == id);
 
             if (ctg == null)
                 return NotFound();
@@ -100,12 +100,12 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            var ctgObj = _db.GetFirstOrDefault(x => x.Id == id);
+            var ctgObj = _db.Category.GetFirstOrDefault(x => x.Id == id);
 
             if (ctgObj is null)
                 return NotFound();
 
-            _db.Remove(ctgObj);
+            _db.Category.Remove(ctgObj);
             _db.Save();
             TempData["success"] = "Category deleted successfully.";
             return RedirectToAction("Index");
