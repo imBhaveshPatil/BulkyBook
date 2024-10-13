@@ -186,7 +186,6 @@ D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Drawing.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Drawing.Primitives.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Dynamic.Runtime.dll
-D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Formats.Asn1.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Globalization.Calendars.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Globalization.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\System.Globalization.Extensions.dll
@@ -549,3 +548,4 @@ D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
 D:\#Project\Web\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.sourcelink.json
+D:\#Project\Web\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\System.Formats.Asn1.dll

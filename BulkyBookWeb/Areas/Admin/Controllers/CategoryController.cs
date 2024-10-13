@@ -4,15 +4,16 @@ using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyBookWeb.Controllers
+namespace BulkyBookWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _db;
 
         public CategoryController(IUnitOfWork db)
         {
-            _db = db;     
+            _db = db;
         }
         public IActionResult Index()
         {
@@ -48,7 +49,7 @@ namespace BulkyBookWeb.Controllers
         //GET
         public IActionResult Edit(int? id)
         {
-            if(id is null or 0)
+            if (id is null or 0)
                 return NotFound();
 
             //var category = _db.Categories.Find(id);
@@ -79,11 +80,11 @@ namespace BulkyBookWeb.Controllers
             }
             return View(ctgObj);
         }
-        
+
         //GET
         public IActionResult Delete(int? id)
         {
-            if(id is null or 0)
+            if (id is null or 0)
                 return NotFound();
 
             //var category = _db.Categories.Find(id);
@@ -109,7 +110,7 @@ namespace BulkyBookWeb.Controllers
             _db.Save();
             TempData["success"] = "Category deleted successfully.";
             return RedirectToAction("Index");
-         
+
         }
     }
 }

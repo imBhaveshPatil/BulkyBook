@@ -199,7 +199,6 @@
           "System.Drawing": "4.0.0.0",
           "System.Drawing.Primitives": "6.0.0.0",
           "System.Dynamic.Runtime": "6.0.0.0",
-          "System.Formats.Asn1.Reference": "6.0.0.0",
           "System.Globalization.Calendars.Reference": "6.0.0.0",
           "System.Globalization.Reference": "6.0.0.0",
           "System.Globalization.Extensions.Reference": "6.0.0.0",
@@ -1520,8 +1519,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1905,8 +1904,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1921,8 +1920,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1936,8 +1935,8 @@
         },
         "runtime": {
           "lib/net6.0/dotnet-aspnet-codegenerator-design.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1951,8 +1950,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1968,8 +1967,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1984,8 +1983,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -1999,8 +1998,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
-            "assemblyVersion": "6.0.17.0",
-            "fileVersion": "6.0.1724.35205"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1824.50102"
           }
         },
         "compile": {
@@ -2520,7 +2519,17 @@
           }
         }
       },
-      "System.Formats.Asn1/6.0.1": {},
+      "System.Formats.Asn1/6.0.1": {
+        "runtime": {
+          "lib/net6.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.3224.31407"
+          }
+        },
+        "compile": {
+          "lib/net6.0/System.Formats.Asn1.dll": {}
+        }
+      },
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -4120,12 +4129,6 @@
       "System.Dynamic.Runtime/6.0.0.0": {
         "compile": {
           "System.Dynamic.Runtime.dll": {}
-        },
-        "compileOnly": true
-      },
-      "System.Formats.Asn1.Reference/6.0.0.0": {
-        "compile": {
-          "System.Formats.Asn1.dll": {}
         },
         "compileOnly": true
       },
@@ -7195,11 +7198,6 @@
       "sha512": ""
     },
     "System.Dynamic.Runtime/6.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Formats.Asn1.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Views\Category\Edit.cshtml">
+    <Content Update="Areas\Admin\Views\Category\Edit.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
